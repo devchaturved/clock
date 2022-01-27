@@ -2,11 +2,11 @@ from tkinter import *
 from time import strftime
 
 def tym():
-t= strftime("%H:%M:%S %p")
-lbl.config(text=t)
-lbl.pack()
-#displays the time
-lbl.after(1000,tym)
+  t= strftime("%H:%M:%S %p")
+  lbl.config(text=t)
+  lbl.pack()
+  #displays the time
+  lbl.after(1000,tym)
 
 
 clock=Tk()
